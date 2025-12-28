@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Mansion Escape Puzzle Game - Learn how we collect, use, and protect your data">
+    <title>Privacy Policy - Mansion Escape Puzzle Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1b2e 0%, #0d0d12 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #1a1b2e;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #c9a227;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            color: #2d2d3a;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #c9a227;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #4a3b5c;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2a9d8f;
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #fff9e6;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #ffb347;
+            margin: 15px 0;
+        }
+
+        a {
+            color: #2a9d8f;
+            text-decoration: none;
+            border-bottom: 1px solid #2a9d8f;
+        }
+
+        a:hover {
+            color: #1a7a6d;
+            border-bottom-color: #1a7a6d;
+        }
+
+        .app-info {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1b2e 0%, #2d2d3a 100%);
+            color: white;
+            border-radius: 8px;
+        }
+
+        .app-info h1 {
+            color: #c9a227;
+            border: none;
+            padding: 0;
+        }
+
+        strong {
+            color: #1a1b2e;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-info">
+            <h1>Mansion Escape Puzzle Game</h1>
+            <p>Privacy Policy</p>
+        </div>
+
+        <p class="last-updated"><strong>Last Updated:</strong> December 28, 2024</p>
+
+        <h2>1. Introduction</h2>
+        <p>
+            Welcome to Mansion Escape Puzzle Game ("we," "our," or "us"). We are committed to protecting your privacy and ensuring transparency about how we handle your information. This Privacy Policy explains what data we collect, how we use it, and your rights regarding your personal information when you use our mobile application.
+        </p>
+        <p>
+            By downloading, installing, or using Mansion Escape Puzzle Game, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not download or use our app.
+        </p>
+
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Information You Provide to Us</h3>
+        <p>
+            Mansion Escape Puzzle Game is designed to be played without requiring you to create an account or provide personal information. We do not collect, store, or transmit any personally identifiable information such as your name, email address, phone number, or physical address directly.
+        </p>
+
+        <h3>2.2 Automatically Collected Information</h3>
+        <p>When you use our app, we may automatically collect certain information, including:</p>
+        <ul>
+            <li><strong>Game Progress Data:</strong> Your current stage, completed puzzles, hint usage, and game statistics are stored locally on your device using AsyncStorage to save your progress.</li>
+            <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers, mobile network information, and device performance data.</li>
+            <li><strong>Usage Analytics:</strong> Stage completion rates, time spent on puzzles, hint usage frequency, ad interaction data, and app crash reports to improve game performance.</li>
+            <li><strong>Advertising Data:</strong> Information collected by our advertising partners (Google AdMob) including ad impressions, clicks, and advertising identifiers (IDFA on iOS, AAID on Android).</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Important:</strong> All game progress data is stored locally on your device. We do not upload or sync your game progress to any cloud servers. If you uninstall the app, your progress will be lost.
+        </div>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the collected information for the following purposes:</p>
+        <ul>
+            <li><strong>Game Functionality:</strong> To save your progress, track completed stages, and provide hints when requested.</li>
+            <li><strong>App Improvement:</strong> To analyze user behavior, identify bugs, improve puzzle design, and enhance overall game experience.</li>
+            <li><strong>Advertising:</strong> To display relevant advertisements through Google AdMob and measure ad performance.</li>
+            <li><strong>Performance Monitoring:</strong> To monitor app crashes, errors, and performance issues to maintain app stability.</li>
+            <li><strong>Analytics:</strong> To understand how users interact with the game and optimize puzzle difficulty and hint systems.</li>
+        </ul>
+
+        <h2>4. Third-Party Services and Data Sharing</h2>
+        <p>
+            Mansion Escape Puzzle Game integrates third-party services that may collect information used to identify you or your device. We use the following third-party services:
+        </p>
+
+        <h3>4.1 Google AdMob</h3>
+        <p>
+            We use Google AdMob to display advertisements in our app. AdMob may collect and use the following information:
+        </p>
+        <ul>
+            <li>Advertising identifiers (IDFA/AAID)</li>
+            <li>Device information and specifications</li>
+            <li>IP address and approximate location</li>
+            <li>Ad interaction data (impressions, clicks)</li>
+            <li>App usage data</li>
+        </ul>
+        <p>
+            AdMob uses this information to provide personalized advertisements. You can opt out of personalized ads through your device settings. For more information, please review:
+        </p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Privacy Information</a></li>
+        </ul>
+
+        <h3>4.2 Analytics Services</h3>
+        <p>
+            We may use analytics services to help us understand how users interact with our app. These services may collect device information, usage patterns, and crash reports. This data is anonymized and used solely for improving app performance.
+        </p>
+
+        <h3>4.3 Data Sharing</h3>
+        <p>We do not sell, trade, or rent your personal information to third parties. We may share information with:</p>
+        <ul>
+            <li><strong>Service Providers:</strong> Third-party companies (like Google AdMob) that help us operate our app and deliver advertisements.</li>
+            <li><strong>Legal Requirements:</strong> When required by law, regulation, legal process, or governmental request.</li>
+            <li><strong>Business Transfers:</strong> In connection with any merger, sale of company assets, financing, or acquisition of all or a portion of our business.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>
+            Mansion Escape Puzzle Game is suitable for users aged 13 and above. We do not knowingly collect personally identifiable information from children under 13 years of age. Our app does not include features that would specifically target or attract children under 13.
+        </p>
+        <p>
+            If you are a parent or guardian and you believe your child under 13 has provided us with personal information, please contact us immediately. We will take steps to remove such information from our systems.
+        </p>
+        <p>
+            In compliance with the Children's Online Privacy Protection Act (COPPA), if we discover that we have collected personal information from a child under 13 without parental consent, we will delete that information as quickly as possible.
+        </p>
+
+        <h2>6. Data Storage and Security</h2>
+        
+        <h3>6.1 Local Storage</h3>
+        <p>
+            Your game progress data is stored locally on your device using React Native's AsyncStorage. This data includes:
+        </p>
+        <ul>
+            <li>Current stage number</li>
+            <li>Completed puzzles list</li>
+            <li>Hint usage statistics</li>
+            <li>Game preferences and settings</li>
+        </ul>
+        <p>
+            This data never leaves your device and is not transmitted to our servers. If you uninstall the app or clear app data, this information will be permanently deleted.
+        </p>
+
+        <h3>6.2 Security Measures</h3>
+        <p>
+            While we strive to use commercially acceptable means to protect your information, we cannot guarantee absolute security. We implement reasonable security measures including:
+        </p>
+        <ul>
+            <li>Secure coding practices</li>
+            <li>Regular security updates</li>
+            <li>Encrypted data transmission when communicating with third-party services</li>
+            <li>Limited data collection practices</li>
+        </ul>
+        <p>
+            However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee the absolute security of your data.
+        </p>
+
+        <h2>7. Advertising and Monetization</h2>
+        <p>
+            Mansion Escape Puzzle Game is free to play and is supported by advertising. We display the following types of ads:
+        </p>
+        <ul>
+            <li><strong>Banner Ads:</strong> Displayed during gameplay at strategic intervals.</li>
+            <li><strong>Interstitial Ads:</strong> Full-screen ads shown every 2 stages after puzzle completion.</li>
+            <li><strong>Rewarded Video Ads:</strong> Optional ads you can watch to receive hints. Every 3rd rewarded ad reveals the puzzle answer.</li>
+        </ul>
+        <p>
+            These advertisements are served by Google AdMob and may be personalized based on your advertising identifier and usage patterns. You can control ad personalization through your device settings:
+        </p>
+        <ul>
+            <li><strong>iOS:</strong> Settings → Privacy → Apple Advertising → Limit Ad Tracking</li>
+            <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
+        </ul>
+
+        <h2>8. Your Privacy Rights and Choices</h2>
+        
+        <h3>8.1 Access and Control</h3>
+        <p>You have the following rights regarding your data:</p>
+        <ul>
+            <li><strong>Access:</strong> You can view your game progress data within the app at any time.</li>
+            <li><strong>Deletion:</strong> You can delete all locally stored game data by uninstalling the app or clearing app data in your device settings.</li>
+            <li><strong>Opt-Out:</strong> You can opt out of personalized advertising through your device settings.</li>
+        </ul>
+
+        <h3>8.2 Data Retention</h3>
+        <p>
+            We retain data only as long as necessary for the purposes outlined in this policy. Since most data is stored locally on your device, you control the retention period. When you uninstall the app, all local data is removed.
+        </p>
+
+        <h3>8.3 California Privacy Rights (CCPA)</h3>
+        <p>
+            If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+        </p>
+        <ul>
+            <li>Right to know what personal information is collected</li>
+            <li>Right to know whether personal information is sold or disclosed</li>
+            <li>Right to say no to the sale of personal information</li>
+            <li>Right to access your personal information</li>
+            <li>Right to equal service and price</li>
+        </ul>
+        <p>
+            We do not sell your personal information. To exercise your CCPA rights, please contact us using the information below.
+        </p>
+
+        <h3>8.4 European Privacy Rights (GDPR)</h3>
+        <p>
+            If you are located in the European Economic Area (EEA), you have rights under the General Data Protection Regulation (GDPR):
+        </p>
+        <ul>
+            <li>Right to access your personal data</li>
+            <li>Right to rectification of inaccurate data</li>
+            <li>Right to erasure ("right to be forgotten")</li>
+            <li>Right to restriction of processing</li>
+            <li>Right to data portability</li>
+            <li>Right to object to processing</li>
+        </ul>
+        <p>
+            To exercise these rights, please contact us. We will respond to your request within 30 days.
+        </p>
+
+        <h2>9. International Data Transfers</h2>
+        <p>
+            Our app may be used by players worldwide. If you are accessing our app from outside the United States, please be aware that your information may be transferred to, stored, and processed in countries where our third-party service providers operate.
+        </p>
+        <p>
+            These countries may have data protection laws that differ from those of your country. By using our app, you consent to the transfer of your information to these countries.
+        </p>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>
+            We may update our Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. We will notify you of any material changes by:
+        </p>
+        <ul>
+            <li>Posting the new Privacy Policy in the app</li>
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Providing an in-app notification (for significant changes)</li>
+        </ul>
+        <p>
+            We encourage you to review this Privacy Policy periodically. Your continued use of the app after any changes indicates your acceptance of the updated policy.
+        </p>
+
+        <h2>11. Third-Party Links</h2>
+        <p>
+            Our app may contain links to third-party websites or services (such as advertiser websites). We are not responsible for the privacy practices or content of these third-party sites. We encourage you to review the privacy policies of any third-party sites you visit.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+        </p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:arslan8122@gmail.com">arslan8122@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="https://arslan-asghar.netlify.app/" target="_blank">https://arslan-asghar.netlify.app/</a></p>
+            <p><strong>App Name:</strong> Mansion Escape Puzzle Game</p>
+            <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48-72 hours</p>
+        </div>
+
+        <h2>13. Consent</h2>
+        <p>
+            By using Mansion Escape Puzzle Game, you hereby consent to our Privacy Policy and agree to its terms. This includes consent to the collection and use of information as described in this policy.
+        </p>
+
+        <h2>14. Additional Information</h2>
+        
+        <h3>14.1 Do Not Track Signals</h3>
+        <p>
+            We do not currently respond to "Do Not Track" signals from web browsers, as there is no uniform standard for how such signals should be interpreted or honored in mobile applications.
+        </p>
+
+        <h3>14.2 Automated Decision Making</h3>
+        <p>
+            We do not use automated decision-making or profiling that would have legal or significant effects on you.
+        </p>
+
+        <h3>14.3 Data Breach Notification</h3>
+        <p>
+            In the event of a data breach that affects your personal information, we will notify affected users and relevant authorities as required by applicable law.
+        </p>
+
+        <div class="highlight">
+            <p><strong>Summary:</strong> We collect minimal data, store your game progress locally on your device, use Google AdMob for advertising, and do not sell your information. You can delete all data by uninstalling the app. For questions, contact us at <a href="mailto:arslan8122@gmail.com">arslan8122@gmail.com</a></p>
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; color: #666; font-size: 0.9em;">
+            © 2024 Mansion Escape Puzzle Game. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
