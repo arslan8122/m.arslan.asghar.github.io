@@ -55,101 +55,134 @@
       padding: 24px;
       border-top: 1px solid #e5e7eb;
     }
+    footer a { color: #6b7280; }
   </style>
 </head>
 <body>
 
 <header>
   <h1>PDF Sign – Privacy Policy</h1>
-  <p>Last updated: June 7, 2026</p>
+  <p>Last updated: July 29, 2026</p>
 </header>
 
 <main>
 
   <div class="highlight">
-    PDF Sign is a free, offline-first Android app. We do not collect, store, or sell
-    any personal information. Your documents never leave your device.
+    PDF Sign is an offline-first app for iOS and Android. Your documents are processed
+    entirely on your device and are never uploaded to us or to anyone else. We do not
+    require an account and we do not sell personal information.
   </div>
 
   <section>
     <h2>1. Information We Collect</h2>
-    <p>PDF Sign does not collect any personally identifiable information (PII). The app works entirely on your device — no account, no login, no server.</p>
+    <p>PDF Sign does not collect personally identifiable information (PII) directly. The app has no account, no login, and no server of our own.</p>
     <ul>
-      <li>We do not collect your name, email, or contact details.</li>
-      <li>We do not read, upload, or transmit the PDF files you sign.</li>
-      <li>We do not access your contacts, camera, microphone, or location.</li>
-      <li>We do not require any storage permissions — file access uses Android's Storage Access Framework (SAF), which never grants broad storage access to the app.</li>
+      <li>We do not collect your name, email address, or contact details.</li>
+      <li>We do not read, upload, or transmit the PDF files you open or sign.</li>
+      <li>We do not access your contacts, microphone, or location.</li>
+      <li>We request <strong>camera</strong> access only when you choose to scan a paper document. Images captured this way are processed on your device and are never uploaded. The app works fully without camera access — you can pick existing images instead.</li>
+      <li>On Android, file access uses the Storage Access Framework (SAF), which grants access only to files you explicitly pick. The app requests no storage permissions.</li>
+      <li>On iOS, file access uses the system document picker, limited to files you choose.</li>
     </ul>
+    <p>Third-party services embedded in the app do collect certain device and usage data, described in sections 3 to 5 below.</p>
   </section>
 
   <section>
-    <h2>2. Advertising (Google AdMob)</h2>
-    <p>PDF Sign is free and supported by ads served by <strong>Google AdMob</strong>. AdMob may collect and use data to show you relevant advertisements. This is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+    <h2>2. Your PDF Files and Signatures</h2>
+    <p>All PDF processing — opening, placing signatures, merging, splitting, rotating, compressing, watermarking, encrypting, converting and exporting — happens entirely on your device. No file content is uploaded to any server or third party.</p>
+    <p>Saved signatures are stored locally on your device only and can be deleted at any time from <strong>My Signatures</strong> in the app.</p>
+    <p>Exported PDFs are saved to the location you choose on your device. The app does not retain any copy beyond what you keep.</p>
+    <p><strong>Document scanning and text recognition (OCR):</strong> when you scan a page with the camera or select an image, text is extracted using Google ML Kit's on-device text recognition. The captured image and the recognized text stay on your device and are not sent to Google or to us. Scanned images are not retained by the app beyond the document you create from them.</p>
+  </section>
 
-    <p><strong>Types of ads shown in this app:</strong></p>
+  <section>
+    <h2>3. Advertising (Google AdMob)</h2>
+    <p>The free version of PDF Sign is supported by ads served by <strong>Google AdMob</strong>. This is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+    <p><strong>Ad formats used in this app:</strong></p>
     <ul>
-      <li><strong>App Open ads</strong> — shown when you launch the app (not shown on the very first cold start).</li>
-      <li><strong>Rewarded ads</strong> — shown before exporting a signed PDF; you watch the full ad to unlock the export.</li>
-      <li><strong>Native ads</strong> — displayed as cards within the document list and signatures screen.</li>
+      <li><strong>App Open ads</strong> — when you return to the app (never on the first launch after install).</li>
+      <li><strong>Interstitial ads</strong> — occasionally after completing a document export.</li>
+      <li><strong>Rewarded ads</strong> — optionally before exporting a signed PDF.</li>
+      <li><strong>Native ads</strong> — as cards within list screens.</li>
     </ul>
+    <p>No ads are displayed on or near the signing canvas.</p>
 
     <p><strong>Data AdMob may collect for advertising purposes:</strong></p>
     <ul>
-      <li>Android Advertising ID (Ad ID)</li>
-      <li>IP address and approximate location (country/region level)</li>
-      <li>Device information (model, OS version, language, screen size)</li>
+      <li>Advertising identifier (Android Advertising ID, or Apple's IDFA where permitted)</li>
+      <li>IP address and approximate location (country or region level)</li>
+      <li>Device information (model, operating system version, language, screen size)</li>
       <li>Ad interaction data (impressions, clicks)</li>
     </ul>
 
-    <p>
-      If you are in the <strong>European Economic Area (EEA), United Kingdom, or Switzerland</strong>,
-      you will see a consent prompt on first launch powered by Google's User Messaging Platform (UMP).
-      You may choose personalised or non-personalised ads.
-    </p>
+    <p><strong>Consent (EEA, UK, Switzerland):</strong> you will see a consent prompt on first launch, powered by Google's User Messaging Platform (UMP). You may choose personalised or non-personalised ads, and you can change your choice at any time from the privacy options in the app's settings.</p>
 
-    <p>
-      To opt out of personalised advertising at any time, visit
-      <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>
-      or go to <em>Settings → Google → Ads → Opt out of Ads Personalization</em> on your Android device.
-    </p>
+    <p><strong>App Tracking Transparency (iOS):</strong> on iOS, the app may ask for permission to track using Apple's App Tracking Transparency framework. If you decline, advertising continues but is non-personalised. You can change this at any time under <em>Settings → Privacy &amp; Security → Tracking</em>.</p>
+
+    <p><strong>Opting out of personalised ads:</strong> on Android, visit <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a> or <em>Settings → Google → Ads</em>. On iOS, use the Tracking setting above.</p>
+
+    <p>Ads are removed entirely if you purchase the Remove Ads unlock (section 4).</p>
   </section>
 
   <section>
-    <h2>3. Your PDF Files and Signatures</h2>
-    <p>All PDF processing — including placing signatures and exporting — happens entirely on your device. No file content is ever uploaded to any server or third party.</p>
-    <p>Saved signatures are stored locally on your device only and can be deleted at any time from <strong>My Signatures</strong> in the app.</p>
-    <p>Exported PDFs are saved to your device's Downloads folder. The app does not retain any copy beyond what you choose to keep.</p>
-  </section>
-
-  <section>
-    <h2>4. Third-Party Services</h2>
-    <p>This app uses the following third-party SDK:</p>
+    <h2>4. Purchases (RevenueCat, Apple, Google)</h2>
+    <p>PDF Sign offers an optional one-time purchase that permanently removes advertising. It is <strong>currently available on iOS only</strong>; the Android version is fully ad-supported and offers no purchases. Payments are processed by <strong>Apple</strong> (App Store), or by <strong>Google</strong> (Play Store) should the purchase become available on Android. We never see or receive your payment card details.</p>
+    <p>To manage entitlements across devices and reinstalls, the app uses <strong>RevenueCat</strong>. RevenueCat receives:</p>
     <ul>
-      <li>
-        <strong>Google AdMob</strong> — advertising network.
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
-      </li>
+      <li>An anonymous app user identifier generated on your device (not linked to your name or email)</li>
+      <li>Purchase and transaction records supplied by Apple or Google (product purchased, date, country of the store account)</li>
+      <li>Basic device and app version information</li>
     </ul>
-    <p>No other analytics, crash reporting, or tracking SDKs are used.</p>
+    <p>See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
   </section>
 
   <section>
-    <h2>5. Children's Privacy</h2>
-    <p>PDF Sign is not directed at children under the age of 13. We do not knowingly collect personal information from children. Ad content rating is set to General (G) and child-directed treatment settings are disabled.</p>
+    <h2>5. Analytics (Google Firebase)</h2>
+    <p>The app includes <strong>Google Firebase Analytics</strong>, which collects aggregated, non-identifying usage and stability information such as app opens, screen views, device model, operating system version, and approximate region. This helps us understand which features are used and where the app fails.</p>
+    <p>Firebase Analytics does not receive the contents of your documents or signatures. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's Privacy and Security information</a>.</p>
   </section>
 
   <section>
-    <h2>6. Data Security</h2>
-    <p>Because PDF Sign does not collect or transmit personal data, there is no personal data stored on our servers. Your files remain protected by your own device's security controls.</p>
+    <h2>6. Third-Party Services Summary</h2>
+    <ul>
+      <li><strong>Google AdMob</strong> — advertising. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>Google Firebase Analytics</strong> — usage analytics. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>RevenueCat</strong> — purchase and entitlement management. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>Google ML Kit</strong> — on-device text recognition; no data leaves the device.</li>
+      <li><strong>Apple App Store / Google Play</strong> — payment processing.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes will be reflected by an updated "Last updated" date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    <h2>7. Children's Privacy</h2>
+    <p>PDF Sign is not directed at children under the age of 13 and we do not knowingly collect personal information from children. Ad content rating is set to General (G), and child-directed treatment is disabled.</p>
   </section>
 
   <section>
-    <h2>8. Contact Us</h2>
+    <h2>8. Your Rights</h2>
+    <p>Depending on where you live, you may have rights to access, correct, or delete personal data held about you, and to object to certain processing.</p>
+    <p>Because we operate no servers and hold no account data, most of your data is either on your device or held by the third parties listed above. You can:</p>
+    <ul>
+      <li>Delete all local app data by uninstalling the app, or clear signatures and history from within Settings.</li>
+      <li>Reset or delete your advertising identifier through your device settings.</li>
+      <li>Withdraw or change advertising consent at any time from the app's privacy options.</li>
+      <li>Contact us at the address below with any request, and we will assist where we are able.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Data Security</h2>
+    <p>Because PDF Sign does not transmit your documents and holds no personal data on servers we control, your files remain protected by your own device's security controls. Passwords you set when encrypting a PDF are applied to the file itself and are never stored or transmitted by the app; if you lose such a password, we cannot recover it.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes are reflected by the "Last updated" date at the top of this page. Continued use of the app after a change constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>11. Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us:</p>
     <p><strong>Email:</strong> <a href="mailto:arslan8122@gmail.com">arslan8122@gmail.com</a></p>
   </section>
@@ -157,7 +190,7 @@
 </main>
 
 <footer>
-  &copy; 2026 PDF Sign. All rights reserved.
+  &copy; 2026 PDF Sign. All rights reserved. &middot; <a href="terms.html">Terms of Service</a>
 </footer>
 
 </body>
